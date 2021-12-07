@@ -11,7 +11,7 @@ let AssignmentSchema = Schema({
 });
 
 AssignmentSchema.plugin(aggregatePaginate);
-
+ ""
 // C'est à travers ce modèle Mongoose qu'on pourra faire le CRUD
 // le premier paramètre est la "collection" mongoDB
 // ATTENTION, y'a du matching entre la chaine passée
