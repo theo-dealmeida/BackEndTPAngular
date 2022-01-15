@@ -56,6 +56,9 @@ app.route(prefix + '/assignments/:id')
 app.listen(port, "0.0.0.0");
 console.log('Serveur démarré sur http://localhost:' + port);
 
+var AuthController = require('./auth/AuthController');
+app.use(prefix + '/auth', AuthController);
+
 module.exports = app;
 
 
