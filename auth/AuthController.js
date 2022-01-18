@@ -26,11 +26,11 @@ router.post('/register', function (req, res) {
             var token = jwt.sign({id: user._id}, config.secret, {
                 expiresIn: 86400 // expires in 24 hours
             });
-            res.status(200).send({auth: true, token: token});
+            res.status(200).send({auth: true, token: token, id: user._id});
         });
 });
 
-router.get('/me', VerifyToken, function(req, res, next) {
+router.get('/me/', VerifyToken, function(req, res, next) {
 
     User.findById(req.userId, { password: 0 }, function (err, user) {
         if (err) return res.status(500).send("There was a problem finding the user.");
@@ -54,7 +54,7 @@ router.post('/login', function(req, res) {
             expiresIn: 86400 // expires in 24 hours
         });
 
-        res.status(200).send({ auth: true, token: token });
+        res.status(200).send({ auth: true, token: token});
     });
 
 });

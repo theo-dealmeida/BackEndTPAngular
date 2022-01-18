@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba964384-9bba-415a-8ffa-c97174eb1d68" name="Default" comment="Correctif API">
-      <change afterPath="$PROJECT_DIR$/auth/AuthController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/VerifyToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/User.js" afterDir="false" />
+    <list default="true" id="ba964384-9bba-415a-8ffa-c97174eb1d68" name="Default" comment="Mis en place des Json Web tokens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/AuthController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +164,9 @@
       <workItem from="1640084804168" duration="1906000" />
       <workItem from="1641552072008" duration="924000" />
       <workItem from="1642182265505" duration="1181000" />
-      <workItem from="1642250326138" duration="2619000" />
+      <workItem from="1642250326138" duration="2739000" />
+      <workItem from="1642365143712" duration="1199000" />
+      <workItem from="1642447962175" duration="7953000" />
     </task>
     <task id="LOCAL-00001" summary="Correctif API">
       <created>1642182781887</created>
@@ -178,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642182781887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mis en place des Json Web tokens">
+      <created>1642253260597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642253260597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -223,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correctif API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correctif API" />
+    <MESSAGE value="Mis en place des Json Web tokens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mis en place des Json Web tokens" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json.js">
