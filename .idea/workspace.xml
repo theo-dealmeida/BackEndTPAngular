@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba964384-9bba-415a-8ffa-c97174eb1d68" name="Default" comment="Ajout des matieres">
-      <change afterPath="$PROJECT_DIR$/model/eleve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/eleve.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/assignment.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/assignment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/assignments.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/assignments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/matiere.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/matiere.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,6 +257,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correctif API" />
