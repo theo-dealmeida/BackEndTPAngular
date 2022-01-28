@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba964384-9bba-415a-8ffa-c97174eb1d68" name="Default" comment="Mis en place des Json Web tokens">
-      <change afterPath="$PROJECT_DIR$/model/matiere.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/matieres.js" afterDir="false" />
+    <list default="true" id="ba964384-9bba-415a-8ffa-c97174eb1d68" name="Default" comment="Ajout des matieres">
+      <change afterPath="$PROJECT_DIR$/model/eleve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/eleve.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/assignment.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/assignment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/assignments.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/assignments.js" afterDir="false" />
@@ -187,7 +187,9 @@
       <workItem from="1642879400206" duration="1326000" />
       <workItem from="1643125582882" duration="2004000" />
       <workItem from="1643220610223" duration="6610000" />
-      <workItem from="1643291986262" duration="2719000" />
+      <workItem from="1643291986262" duration="2875000" />
+      <workItem from="1643306827572" duration="1870000" />
+      <workItem from="1643365809751" duration="3811000" />
     </task>
     <task id="LOCAL-00001" summary="Correctif API">
       <created>1642182781887</created>
@@ -210,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642467861305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout des matieres">
+      <created>1643301765696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643301765696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -256,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correctif API" />
     <MESSAGE value="Mis en place des Json Web tokens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mis en place des Json Web tokens" />
+    <MESSAGE value="Ajout des matieres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des matieres" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json.js">
